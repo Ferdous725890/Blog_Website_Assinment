@@ -10,7 +10,7 @@ export default async function Home() {
         <h2 className="text-2xl">Blogs</h2>
         <div>
           {allposts.map((post) => (
-            <div>
+            <div key={post.id}>
               <div className="">
                 <Link href={`/${post.id}`}>
                   <p className="underline text-[18px] hover:text-blue-500 hover:cursor-pointer">
