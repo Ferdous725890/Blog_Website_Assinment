@@ -5,7 +5,7 @@ import { LoginLink } from "@kinde-oss/kinde-auth-nextjs/components";
 
 export const metadata = {
   title: "Read Nest || Profile",
-  description: "readnest",
+  description: "helo",
 };
 
 
